@@ -3,19 +3,19 @@ Desert Complete:
     icon: shield
     hide-icon-on-map: true
     comment: .!!(+ Snow Boots)
-- .dir(N>)
+- .dir([1:00])
 - _Npc<Bozai>:
     coord: [-3750,2874]
     comment: 8th Heroine, Forgotten Sword
     notes: Sand Boots will automatically equip (yay)
     time-override: 360
 
-- .gale() + .dir(<W) midair:
+- .gale() + .dir([8:00]) midair:
     gale: 1
 - _Korok::W42:
     comment: In water tower
 
-- .dir(W) down
+- .dir([9:00]) down
 - _Npc::Gerudo<Calyban>:
     comment: Mystery Polluter
     coord: [-3915.29, 169.20, 2954.60]
@@ -56,17 +56,17 @@ Desert Complete:
     coord: [-3792,2955.25]
     comment: Code 3-3-3-4
 
-- .dir(E>)
+- .dir([4:00])
 - _Korok::W43:
     comment: Behind, left, behind, right
 
-- .dir(<E)
+- .dir([2:00])
 - _Korok::W37
 
-- .dir(E>>)
+- .dir([4:15])
 - _Korok::W44
 
-- .dir(<<E) + .dir(N>)
+- .dir([1:45]) + .dir([1:00])
 - _Korok::W35:
     comment: In arms of statue
 
@@ -81,13 +81,13 @@ Desert Complete:
     icon: shield
     hide-icon-on-map: true
 
-- .dir(S) + climb
+- .dir([6:00]) + climb
 - _Korok::W40
 
-- .dir(N>) + midair
+- .dir([1:00]) + midair
 - _Korok::W30
 
-- .dir(NW)
+- .dir([10:30])
 - _Korok::W19:
     comment: On ledge
 
@@ -95,7 +95,7 @@ Desert Complete:
 - _Shrine::KayNoh:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=12635s)
 
-- .dir(N) short
+- .dir([12:00]) short
 - _Korok::W15
 
 - Down

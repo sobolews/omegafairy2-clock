@@ -4,18 +4,18 @@ Moldugas:
 - _Korok::W09:
     comment: Top of skeleton
 
-- .dir(S.)
+- .dir([6:30])
 - _Korok::W13:
     comment: Top of skeleton
 
-- .dir(<S)
+- .dir([5:00])
 - _Korok::W18:
     comment: Pinwheel on skeleton
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::W25
 
-- midair .dir(<S)
+- midair .dir([5:00])
 - _Boss::Molduga:
     coord: [-4832.61, 133.21, 2800.42]
     comment: .fury()
@@ -31,15 +31,15 @@ Moldugas:
 
 - _Shrine::ThoKayu
 
-- .dir(<<S)
+- .dir([4:45])
 - _Boss::Molduga:
     coord: [-4555.62, 137.14, 3256.35]
     comment: Savage Lynel Crusher
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::W51
 
-- midair .dir(S)
+- midair .dir([6:00])
 - _Korok::W65
 
 - _Snap::Quest<Gerudo Great Skeleton>:
@@ -61,32 +61,32 @@ Moldugas:
     comment: Search for Barta
     coord: [-4818.86, 130.23, 3713.28]
 
-- .dir(<<E)
+- .dir([1:45])
 - _Korok::W55
 
-- .dir(S>)
+- .dir([7:00])
 - _Korok::W61
 
-- midair .dir(E>)
+- midair .dir([4:00])
 - _Korok::W66
 
 - _Boss::Molduga:
     coord: [-4191.12, 126.91, 3797.45]
     comment: Savage Lynel Crusher
 
-- .dir(<<E)
+- .dir([1:45])
 - _Boss::Molduga:
     coord: [-3799.06, 118.76, 3653.43]
     comment: Savage Lynel Crusher
 
-- .dir(N)
+- .dir([12:00])
 - _Korok::W57:
     comment: In tree above oasis
 
-- .dir(<N)
+- .dir([11:00])
 - _Korok::W56
 
-- .dir(N>)
+- .dir([1:00])
 - .!!(Sand Seal Race):
     icon: tots
     hide-icon-on-map: true

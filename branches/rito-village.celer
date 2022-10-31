@@ -1,14 +1,14 @@
 Rito Village:
-- .dir(N>)
+- .dir([1:00])
 - _Korok::T15
 
-- .dir(N>>) short
+- .dir([1:15]) short
 - _Npc::Rito<Kotts>:
     coord: [-3488.88, 258.52, -1850.25]
     comment: In pool
     notes: Recital at Warbler's Nest
 
-- .dir(W)
+- .dir([9:00])
 - _Material<1 Cold Darner>:
     notes: For Little Sister's Big Request
     comment: On landing pad
@@ -71,16 +71,16 @@ Rito Village:
     coord: [-3606.34, 296.75, -1799.16]
     comment: Recital at Warbler's Nest
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::T17:
     comment: " "
 
-- .dir(S>)
+- .dir([7:00])
 - _Boss::Hinox::Black:
     coord: [-3793.68, 246.02, -1557.10]
     comment: Ancient arrows
 
-- .dir(W>>)
+- .dir([10:15])
 - Activate .!!(Pedestal):
     icon: tots
     hide-icon-on-map: true
@@ -89,16 +89,16 @@ Rito Village:
 - _Shrine::VooLota:
     notes: Squeak; .link([Shrine Strat]https://youtu.be/MZqANcvFr4c?t=9164)
 
-- .dir(SE) run
+- .dir([4:30]) run
 - _Material<Spicy Pepper>:
     comment: Pause/unpause
     notes: Sets up menuing for T09
     coord: [-3987.10, 272.52, -1707.67]
 - _Korok::T16
 
-- .dir(W>) down
+- .dir([10:00]) down
 - _Korok::T12
 
-- .gale() + .dir(N>):
+- .gale() + .dir([1:00]):
     gale: 1
 - _Korok::T09

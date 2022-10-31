@@ -3,22 +3,22 @@ Vah Naboris:
     comment: WARP
     notes: Clear ragdoll before warping
 
-- .dir(S>>)
+- .dir([7:15])
 - _Npc::Gerudo<Riju>:
     coord: [-3868.85, 166.67, 2948.96]
     comment: Urbosa Memory
 
-- .dir(E>>)
+- .dir([4:15])
 - _Npc::Gerudo<Riju>:
     coord: [-3420.68, 189.82, 3118.97]
     comment: At outpost
 
-- .dir(SE) surf
+- .dir([4:30]) surf
 - _Npc::Gerudo<Pokki>:
     coord: [-2968.22, 137.69, 3775.00]
     notes: Start Perfect Drink
 
-- .dir(E) + midair:
+- .dir([3:00]) + midair:
     notes: Wait until Riju's question, then choose "Keep up the fight!" Use minimap to find Naboris.
 - Enter Naboris:
     icon: naboris-enter
@@ -83,7 +83,7 @@ Vah Naboris:
     notes: Mystery Polluter
     comment: End of street
 
-- .dir(N)
+- .dir([12:00])
 - _Npc::Gerudo<Anche>:
     coord: [-3743.75, 146.81, 2304.44]
     comment: Get ice
@@ -95,23 +95,23 @@ Vah Naboris:
     coord: [-3764.49, 141.00, 2699.75]
     comment: Deliver ice
 
-- .dir(N>) + midair to .loc(Dako Tah)
+- .dir([1:00]) + midair to .loc(Dako Tah)
 - In shrine
 - _Chest<Radiant Shield>:
     hide-icon-on-map: true
 - _Shrine::DakoTah:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=12428s)
 
-- .dir(<<E)
+- .dir([1:45])
 - _Korok::G34:
     comment: On bridge
 
-- .dir(<S)
+- .dir([5:00])
 - _Discover<Gerudo Desert Gateway>:
     coord: [-2924.12, 153.42, 2329.39]
     notes: .link([Location]https://twitter.com/TaoPlusPlus/status/1544355478746017794?s=20&t=qgS0S9EanV-wak7bHty7Ww)
 
-- .dir(E)
+- .dir([3:00])
 - _Npc<Sesami>:
     coord: [-2797.53, 135.05, 2240.97]
     notes: Missing in Action

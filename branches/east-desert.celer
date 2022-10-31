@@ -2,27 +2,27 @@ East Desert:
 - _Warp::VahNaboris:
     comment: WARP
 
-- .dir(W) run
+- .dir([9:00]) run
 - _Korok::W33
 
-- midair .dir(W)
+- midair .dir([9:00])
 - _Korok::W31:
     comment: On ledge
 
-- .dir(E) run
+- .dir([3:00]) run
 - _Korok::W32
 
-- .dir(N)
+- .dir([12:00])
 - _Tower::Wasteland
 
-- .dir(NE)
+- .dir([1:30])
 - _Korok::W23:
     comment: Way down
 
 - _Korok::W24:
     comment: " "
 
-- .dir(.N)
+- .dir([11:30])
 - Kill .enemy(Fire Wizzrobe):
     coord: [-2161.96, 333.51, 2140.63]
     icon: calamity
@@ -35,10 +35,10 @@ East Desert:
     # coord: [-2141.96, 333.51, 2140.63]
     notes: Timing to reach Suma Sahma between 4:00pm and 5:30pm. If you're missing the window, make noon later in this segment.
 
-- .dir(N) run
+- .dir([12:00]) run
 - _Korok::W11
 
-- .dir(SW)
+- .dir([7:30])
 - _Korok::W12:
     comment: Underneath rock slabs
 
@@ -55,33 +55,33 @@ East Desert:
 - _Korok::W16:
     comment: .rune(Stasis), 1 hit w/ two-hander
 
-- .dir(SE) + .dir(S)
+- .dir([4:30]) + .dir([6:00])
 - _Korok::W34:
     comment: " "
 
-- .dir(S>)
+- .dir([7:00])
 - _Korok::W39
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::W38:
     comment: On thin pillar
 
-- .dir(SE)
+- .dir([4:30])
 - _Boss::Talus::Luminous:
     coord: [-2096.46, 318.46, 3037.91]
     comment: .fury() Collect drops
     fury: 3
     notes: Intentionally "wasting" a fury. Looking for amber, flint, and luminous stones.
 
-- .dir(SE)
+- .dir([4:30])
 - _Korok::W50:
     comment: " "
 
-- .dir(SW)
+- .dir([7:30])
 - _Korok::W58:
     comment: " "
 
-- .dir(<<E):
+- .dir([1:45]):
     coord: [-1748.5,3470.25]
     notes: See map for where to drop in
 - In shrine
@@ -90,22 +90,22 @@ East Desert:
     hide-icon-on-map: true
 - _Shrine::DilaMaag
 
-- .dir(N) + .dir(E>) midairs:
+- .dir([12:00]) + .dir([4:00]) midairs:
     coord: [-1806.75,3340.5]
 - _Korok::W54
 
-- .dir(S>)
+- .dir([7:00])
 - _Korok::W59:
     comment: " "
 
-- .dir(E>)
+- .dir([4:00])
 - _Korok::W64
 
-- .dir(N)
+- .dir([12:00])
 - _Korok::W60:
     comment: " "
 
-- .dir(<N)
+- .dir([11:00])
 - Read .!!(Mountain Peak Log):
     icon: tots
     # hide-icon-on-map: true
@@ -118,29 +118,29 @@ East Desert:
 
 - _Shrine::SumaSahma
 
-- .dir(N>)
+- .dir([1:00])
 - _Korok::W53:
     comment: On thin pillar
 
-- .dir(<N)
+- .dir([11:00])
 - _Korok::W41:
     comment: Down on overpass
 
-- .dir(SW)
+- .dir([7:30])
 - _Korok::W46:
     comment: Down in corner
 
-- .gale() .dir(W):
+- .gale() .dir([9:00]):
     gale: 1
 - _Korok::W45
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::W49
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::W48
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::W52
 
 - Kill .enemy(Blue Lizalfos):
@@ -149,24 +149,24 @@ East Desert:
     comment: 1 Lizalfos Horn?
     notes: Inventory corruption leaves us missing 1 Lizalfos Horn. High chance to pick it up here.
 
-- .dir(S)
+- .dir([6:00])
 - _Korok::W63
 
-- .dir(S>)
+- .dir([7:00])
 - _Korok::W68:
     comment: On windy pillar
 
-- .dir(W>) + midairs
+- .dir([10:00]) + midairs
 - _Npc<Pokki>:
     coord: [-2968.22, 137.69, 3775.00]
     notes: For Perfect Drink
 
 - _Shrine::MisaeSuma
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::W62
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::W67
 - _Material<2 Voltfruit>:
     hide-icon-on-map: true

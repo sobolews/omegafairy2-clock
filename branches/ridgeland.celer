@@ -1,127 +1,127 @@
 Ridgeland:
-- .dir(W)
+- .dir([9:00])
 - _Korok::R19:
     comment: " "
 
-- .dir(N>)
+- .dir([1:00])
 - _Korok::R16:
     comment: Against cliff
 
-- .dir(<N)
+- .dir([11:00])
 - _Korok::R10:
     comment: In tech lab ruins
 
-- .dir(N>>)
+- .dir([1:15])
 - _Memory::IrchPlain
 
-- .dir(<S) run
+- .dir([5:00]) run
 - _Korok::R07
 
-- .dir(E)
+- .dir([3:00])
 - _Boss::Hinox::Blue:
     coord: [-752.49, 187.41, -1268.12]
     comment: Ancient arrows
 
-- .dir(N>)
+- .dir([1:00])
 - _Korok::K29
 
-- .dir(NE)
+- .dir([1:30])
 - _Korok::K27:
     comment: Pinwheel
 
-- .dir(E)
+- .dir([3:00])
 - _Korok::K28
 
-- .dir(<N)
+- .dir([11:00])
 - _Boss::Hinox::Blue:
     coord: [-480.55, 278.99, -2039.64]
     comment: Ancient arrows
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::K19
 
-- midair .dir(NW)
+- midair .dir([10:30])
 - _Korok::K16
 
-- .dir(S>)
+- .dir([7:00])
 - _Korok::K18
 
-- .dir(<S)
+- .dir([5:00])
 - _Korok::K26
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::K24
 
-- .dir(<<E)
+- .dir([1:45])
 - Steal horse:
     icon: calamity
     coord: [-1019.50, 208.96, -1721.00]
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::K25
 
-- .dir(NW)
+- .dir([10:30])
 - _Korok::K17:
     comment: " "
 
-- .dir(S>)
+- .dir([7:00])
 - _Korok::K23:
     comment: " "
 
-- midair .dir(S>)
+- midair .dir([7:00])
 - _Shrine::MonyaToma:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=8580s)
 
-- .dir(W)
+- .dir([9:00])
 - _Shrine::MaagNorah
 
-- .dir(<N)
+- .dir([11:00])
 - _Korok::R03:
     comment: Up on ledge against cliff
 
-- .dir(<N)
+- .dir([11:00])
 - _Korok::H71:
     comment: Across the canyon
 
-- .dir(S)
+- .dir([6:00])
 - _Boss::Talus::Luminous:
     comment: .fury()
     fury: 3
     coord: [-2177.46, 322.30, -1585.39]
     notes: Intentionally "wasting" a fury
 
-- .dir(SW) run
+- .dir([7:30]) run
 - _Korok::R02
 
-- .dir(E.) + .dir(<S)
+- .dir([3:30]) + .dir([5:00])
 - _Korok::R06
 
-- .dir(E>>)
+- .dir([4:15])
 - _Korok::R09:
     comment: " "
 
-- .dir(<S)
+- .dir([5:00])
 - _Tower::Ridgeland
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::R15:
     comment: " "
 
-- .dir(<<N)
+- .dir([9:45])
 - Send red orb:
     icon: tots
     coord: [-2135.60, 219.98, -909.20]
 
-- .dir(NW)
+- .dir([10:30])
 - Send orange orb:
     icon: tots
     coord: [-2271.02, 228.58, -1040.27]
 
-- .dir(NW)
+- .dir([10:30])
 - _Korok::R08:
     comment: Against cliff
 
-- .dir(<S)
+- .dir([5:00])
 - Take green orb:
     icon: tots
     coord: [-2288.70, 235.47, -882.80]
@@ -133,24 +133,24 @@ Ridgeland:
 - _Shrine::TohYahsa:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=21859s)
 
-- .dir(S) short
+- .dir([6:00]) short
 - _Korok::R14
 
-- .dir(<S) + midair
+- .dir([5:00]) + midair
 - _Korok::R23:
     notes: Complete R24 before the last flower of R23
 - _Korok::R24:
     comment: " "
 
-- .dir(N>>) run
+- .dir([1:15]) run
 - _Korok::R18:
     comment: .gale()
     gale: 1
 
-- .dir(SE)
+- .dir([4:30])
 - _Korok::R25:
     comment: " "
 
-- .dir(<E)
+- .dir([2:00])
 - _Shrine::ZaltaWa:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=23395s)

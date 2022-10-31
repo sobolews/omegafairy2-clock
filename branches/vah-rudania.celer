@@ -3,29 +3,29 @@ Vah Rudania:
     line-color: crimson
     comment: WARP
     
-- .dir(S.)
+- .dir([6:30])
 - _Npc::Goron<Bludo>:
     coord: [1713.95, 498.05, -2446.92]
     comment: Daruk Memory
 
-- .dir(E)
+- .dir([3:00])
 - _Korok::E16
 
-- .dir(<<S)
+- .dir([4:45])
 - _Korok::E17:
     comment: " "
 
-- .dir(E) + .dir(S>)
+- .dir([3:00]) + .dir([7:00])
 - _Equipment::Weapon<Drillshaft>:
     coord: [1946.80, 632.72, -2203.24]
     notes: For Death Mountain's Secret
     comment: Behind rubble
 
-- .dir(NE)
+- .dir([1:30])
 - _Shrine::DaqaKoh:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=19375s)
 
-- .dir(E>)
+- .dir([4:00])
 - Kill .enemy(2 moblins):
     icon: calamity
     coord: [2142.43, 634.02, -2288.29]
@@ -86,17 +86,17 @@ Vah Rudania:
 - _Chest::Special<Boulder Breaker>:
     coord: [1740.58, 504.08, -2447.19]
 
-- .dir(E.) + .dir(.S)
+- .dir([3:30]) + .dir([5:30])
 - _Npc::Goron<Dugby>:
     coord: [1787.98, 581.97, -2244.39]
     comment: Death Mountain's Secret
 
-- .dir(SE)
+- .dir([4:30])
 - _Npc::Goron<Gonguron>:
     coord: [2045.68, 521.76, -2040.42]
     comment: A Brother's Roast
 
-- .dir(SW)
+- .dir([7:30])
 - Deliver rock meat:
     icon: tots
     movements:
@@ -106,20 +106,20 @@ Vah Rudania:
 - _Shrine::KayraMah:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=19670s)
 
-- .dir(N)
+- .dir([12:00])
 - _Korok::E20:
     comment: " "
 
-- .dir(<E)
+- .dir([2:00])
 - _Boss::Talus::Igneo:
     coord: [2141.56, 559.13, -2178.47]
     comment: Boulder Breaker
     notes: Get any missing luminous stones here
 
-- .dir(<<S) short
+- .dir([4:45]) short
 - _Korok::E21
 
-- .dir(E>>):
+- .dir([4:15]):
     time-override: 720
 - _Boss::Talus::Igneo:
     coord: [2372.52, 507.89, -1998.62]
@@ -132,41 +132,41 @@ Vah Rudania:
 - _Korok::E22:
     comment: " "
 
-- .dir(E)
+- .dir([3:00])
 - _Korok::E23:
     comment: In tunnel
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::E28:
     comment: Down in skull
 
-- .dir(<W)
+- .dir([8:00])
 - _Shrine::QuaRaym:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=19783s)
 
-- .dir(<N)
+- .dir([11:00])
 - _Korok::E25:
     comment: On skeleton in lava
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::E24:
     comment: " "
 
-- .dir(S.)
+- .dir([6:30])
 - _Memory::EldinCanyon
 - _Korok::E31:
     comment: Next to memory
 
-- .dir(S>)
+- .dir([7:00])
 - _Korok::E35
 
-- .dir(E)
+- .dir([3:00])
 - _Korok::K32
 
-- midair .dir(N>)
+- midair .dir([1:00])
 - _Korok::K31:
     comment: On scaffolding
 
-- .gale() + .dir(W):
+- .gale() + .dir([9:00]):
     gale: 1
 - _Tower::Woodland

@@ -1,58 +1,58 @@
 Central Tower:
-- .dir(N)
+- .dir([12:00])
 - _Boss::Talus::Luminous:
     comment: Bomb + ancient arrows
     coord: [-971.13, 355.71, 3236.14]
 
-- .dir(W>>)
+- .dir([10:15])
 - _Korok::L41
 
-- .dir(<<E)
+- .dir([1:45])
 - _Korok::L37
 
-- midair .dir(N)
+- midair .dir([12:00])
 - _Korok::L23
 
-- .dir(<<N)
+- .dir([9:45])
 - _Korok::P17:
     comment: On ledge under Plateau wall
 
-- .dir(W) down
+- .dir([9:00]) down
 - _Korok::P16:
     comment: " "
 
-- .gale() + .dir(NW) midair:
+- .gale() + .dir([10:30]) midair:
     gale: 1
 - _Korok::P15
 
-- .dir(<<N) short
+- .dir([9:45]) short
 - _Korok::P14:
     comment: On ledge under Plateau wall
 
-- .dir(N)
+- .dir([12:00])
 - _Korok::P07
 
-- .dir(<<E)
+- .dir([1:45])
 - _Korok::P08:
     comment: Under bridge
     notes: Use .rune(Cryo) to move the log into position
 
-- .dir(N>)
+- .dir([1:00])
 - _Korok::P03:
     comment: Other side of hill
 
-- .dir(N)
+- .dir([12:00])
 - _Korok::C80:
     comment: " "
 
-- midair .dir(N>)
+- midair .dir([1:00])
 - _Korok::C79
 
-- .dir(N>>)
+- .dir([1:15])
 - _Korok::C74:
     comment: High on coliseum wall
 
-- .dir(<<N) down
+- .dir([9:45]) down
 - _Korok::C73:
     comment: " "
 
@@ -62,57 +62,57 @@ Central Tower:
 - _Korok::C68:
     comment: Under bridge
 
-- .dir(<N)
+- .dir([11:00])
 - _Korok::C67:
     comment: On ledge against cliff
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::C66
 
-- .dir(N>)
+- .dir([1:00])
 - _Korok::C52
 
-- .dir(<E) + midair
+- .dir([2:00]) + midair
 - _Korok::C53
 
-- .dir(<<E)
+- .dir([1:45])
 - _Tower::Central
 
-- .dir(N>) down
+- .dir([1:00]) down
 - _Korok::C48
 
-- .dir(<E)
+- .dir([2:00])
 - _Discover<Hyrule Garrison Ruins>:
     coord: [-596.50, 132.50, 571.50]
 
-- midair .dir(E)
+- midair .dir([3:00])
 - _Korok::C54
 
-- .dir(NE)
+- .dir([1:30])
 - _Korok::C49
 
-- midair .dir(SE)
+- midair .dir([4:30])
 - _Korok::C55:
     comment: Two trees left of guardian
 
-- .dir(S)
+- .dir([6:00])
 - _Korok::C64
 
-- .dir(S)
+- .dir([6:00])
 - _Korok::C70:
     comment: " "
 
-- .dir(E)
+- .dir([3:00])
 - _Korok::C71
 
-- .dir(<E)
+- .dir([2:00])
 - _Korok::C65
 
-- .dir(SE)
+- .dir([4:30])
 - _Shrine::WahgoKatta:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=1581s)
 
-- .dir(S) surf
+- .dir([6:00]) surf
 - _Npc<Parcy>:
     coord: [345.00, 121.73, 1091.50]
     comment: Royal Guard's Gear
@@ -121,7 +121,7 @@ Central Tower:
     coord: [325.82, 115.40, 1092.50]
     comment: Royal Recipe
 
-- .dir(S.)
+- .dir([6:30])
 - _Korok::C77
 
 - _Korok::D14:
@@ -130,10 +130,10 @@ Central Tower:
 - _Discover<Owlan Bridge>:
     coord: [325.48, 102.49, 1273.41]
 
-- .dir(<S)
+- .dir([5:00])
 - _Korok::D22
 
-- .dir(W)
+- .dir([9:00])
 - Kill .enemy(Red Moblin):
     icon: calamity
     coord: [132.65, 116.42, 1397.90]
@@ -141,13 +141,13 @@ Central Tower:
 - _Equipment::Weapon<Moblin Club>:
     comment: Weapon Connoisseur
 
-- .dir(SW) run
+- .dir([7:30]) run
 - _Korok::C84:
     comment: " "
 
-- .dir(S)
+- .dir([6:00])
 - _Korok::D26
 
-- .dir(S) down
+- .dir([6:00]) down
 - _Shrine::BoshKala:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=1459s)

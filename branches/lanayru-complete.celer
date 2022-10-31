@@ -1,29 +1,29 @@
 Lanayru Complete:
-- .dir(E>)
+- .dir([4:00])
 - _Korok::N40
 
-- .dir(<N) + midair
+- .dir([11:00]) + midair
 - _Korok::N25:
     comment: " "
 
-- .dir(N>)
+- .dir([1:00])
 - _Korok::Z61:
     comment: On island
     notes: Combo Z61 and Z62
 - _Korok::Z62:
     comment: " "
 
-- .dir(N) + midair
+- .dir([12:00]) + midair
 - _Korok::Z59
 
-- .dir(<N)
+- .dir([11:00])
 - _Korok::Z58
 
 - _Boss::Hinox::Blue:
     coord: [4442.00, 160.79, 350.94]
     comment: Ancient arrows
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::Z56
 - Blow up 3 rock piles:
     icon: calamity
@@ -36,44 +36,44 @@ Lanayru Complete:
           away: true
     hide-icon-on-map: true
 
-- .dir(<S)
+- .dir([5:00])
 - _Korok::Z57
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::N12
 
-- .dir(W>)
+- .dir([10:00])
 - _Korok::Z55
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::Z54
 
-- .dir(S>>)
+- .dir([7:15])
 - _Korok::N14
 
-- .dir(<<N)
+- .dir([9:45])
 - _Korok::Z51
 
-- .dir(N.)
+- .dir([12:30])
 - _Shrine::RuccoMaag:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=15359s)
 
-- .dir(E>>)
+- .dir([4:15])
 - _Korok::Z53
 
 - _Korok::Z52
 
-- .dir(<E)
+- .dir([2:00])
 - _Korok::Z45
 
-- .dir(<E)
+- .dir([2:00])
 - _Korok::Z46
 
-- .dir(S)
+- .dir([6:00])
 - _Npc::Rito<Kass>:
     coord: [4151.39, 109.13, 346.02]
 
-- .dir(N>>)
+- .dir([1:15])
 - Activate .!!(Pedestial):
     icon: tots
     coord: [4226.75,312.75]
@@ -81,61 +81,61 @@ Lanayru Complete:
 
 - _Shrine::ShaiYota
 
-- .dir(N>)
+- .dir([1:00])
 - _Korok::Z36
 
-- .dir(W) + .dir(E)
+- .dir([9:00]) + .dir([3:00])
 - _Korok::Z35
 
-- .dir(<E) + .dir(.N)
+- .dir([2:00]) + .dir([11:30])
 - _Chest::Special<Star Fragment>:
     coord: [4218.92, 380.62, -147.56]
     notes: For armor upgrades
 
-- .dir(N.) short
+- .dir([12:30]) short
 - _Korok::Z28:
     comment: Against cliff
 
-- .dir(NE)
+- .dir([1:30])
 - _Korok::Z10:
     comment: On island next to updraft
 
-- .dir(<NW)
+- .dir([10:15])
 - _Korok::Z09
 
-- .dir(W>)
+- .dir([10:00])
 - _Korok::A56
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::A57
 
-- .dir(N>)
+- .dir([1:00])
 - _Shrine::KenaiShakah:
     comment: Modest Test of Strength
 
-- midair .dir(S>):
+- midair .dir([7:00]):
     notes: Jump out to avoid low ceiling
 - _Korok::A55
 
-- .dir(<N)
+- .dir([11:00])
 - _Korok::A54:
     comment: Pinwheel
     notes: .link([Korok strat]https://twitter.com/TaoPlusPlus/status/1548114763384729600?s=20&t=JX61AlpH3ORlyUb73JbUtw)
 
-- .dir(<<E)
+- .dir([1:45])
 - _Korok::A53:
     comment: " "
 
-- .dir(E)
+- .dir([3:00])
 - _Korok::Z07
 
-- .dir(N) down
+- .dir([12:00]) down
 - _Korok::Z06:
     comment: On wood planks
 
-- .dir(N)
+- .dir([12:00])
 - _Korok::Z01
 
-- .dir(S) down
+- .dir([6:00]) down
 - _Shrine::KahMael:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=20677s)

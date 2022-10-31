@@ -1,19 +1,19 @@
 Satori Mountain:
-- .dir(E>)
+- .dir([4:00])
 - _Korok::C24
 
-- .dir(<N)
+- .dir([11:00])
 - _Korok::R26:
     comment: " "
 
 - _Korok::R27:
     comment: Under bridge
 
-- .dir(S>)
+- .dir([7:00])
 - _Korok::R44:
     comment: Golden gauntlets
 
-- .dir(<<W)
+- .dir([7:45])
 - _Korok::R43:
     comment: Up hanging below bridge
 
@@ -23,16 +23,16 @@ Satori Mountain:
 
 - _Korok::R45
 
-- .dir(<<W)
+- .dir([7:45])
 - _Korok::R42:
     comment: " "
 
-- .dir(SE)
+- .dir([4:30])
 - _Boss::Hinox::Black:
     coord: [-1177.05, 139.48, 118.51]
     comment: Ancient arrows
 
-- .dir(<S)
+- .dir([5:00])
 - _Discover<Ancient Tree Stump>:
     coord: [-1111.99, 170.44, 430.91]
 - _Equipment::Weapon<Great Flameblade>:
@@ -41,114 +41,114 @@ Satori Mountain:
     comment: " "
     notes: Kill the .enemy(Lizalfos) in the water
 
-- .dir(W>)
+- .dir([10:00])
 - _Korok::C37
 
-- .dir(S>)
+- .dir([7:00])
 - _Korok::R58
 
-- .dir(W>) + .dir(W>)
+- .dir([10:00]) + .dir([10:00])
 - _Korok::R57
 
-- .dir(W>)
+- .dir([10:00])
 - _Korok::R56
 
-- .dir(S>)
+- .dir([7:00])
 - _Korok::R55:
     notes: Drop a bomb to blow up the stal enemies as you're gliding over
 
-- .dir(N>) run
+- .dir([1:00]) run
 - _Korok::R54
 
-- .dir(<W)
+- .dir([8:00])
 - _Boss::Hinox::Stal:
     coord: [-2217.00, 372.31, 584.00]
     comment: Ancient arrows
 
-- .dir(E) run
+- .dir([3:00]) run
 - _Korok::R62:
     comment: " "
 
-- .dir(N>>)
+- .dir([1:15])
 - _Korok::R53
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::R52:
     comment: In pink tree
 
-- .dir(S)
+- .dir([6:00])
 - _Korok::R61
 
-- .dir(E>>)
+- .dir([4:15])
 - _Korok::R68:
     comment: " "
 - _Korok::R69
 
-- .dir(<S) far
+- .dir([5:00]) far
 - _Korok::R78
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::R77:
     comment: In tree
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::R76
 
 - _Korok::R75:
-    comment: Bomb arrow .dir(NW)
+    comment: Bomb arrow .dir([10:30])
     movements:
         - to: [-2393.37, 233.05, 1047.34]
           away: true
 
-- .gale() + .dir(<E):
+- .gale() + .dir([2:00]):
     gale: 1
 - _Korok::G14:
     comment: Pinwheel
 
-- .dir(N>>) far
+- .dir([1:15]) far
 - _Korok::R70
 
-- .dir(W) short
+- .dir([9:00]) short
 - _Korok::R73:
     comment: " "
 
-- .dir(W>)
+- .dir([10:00])
 - _Korok::R67
 
-- .dir(NE) short
+- .dir([1:30]) short
 - _Korok::R66:
     comment: " "
 
-- .dir(N>) run
+- .dir([1:00]) run
 - _Korok::R65
 
-- .dir(N) run
+- .dir([12:00]) run
 - _Korok::R64
 
-- .dir(N>)
+- .dir([1:00])
 - _Korok::R51
 
-- .dir(SW)
+- .dir([7:30])
 - _Korok::R63
 
-- .dir(W>)
+- .dir([10:00])
 - _Korok::R50:
     comment: In tree
     notes: Shoot bomb arrow from high above
 
-- midair .dir(<N)
+- midair .dir([11:00])
 - _Boss::Talus::Rare:
     comment: .fury()
     fury: 3
     coord: [-3137.50, 317.31, 72.90]
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::R46
 
-- .dir(N)
+- .dir([12:00])
 - _Korok::R36
 
-- .dir(W>)
+- .dir([10:00])
 - _Korok::R35:
     comment: " "
 
@@ -158,13 +158,13 @@ Satori Mountain:
         - to: [-3861.73, 101.01, -147.16]
           away: true
 
-- .dir(W>>)
+- .dir([10:15])
 - _Korok::R33
 
-- .dir(<<W)
+- .dir([7:45])
 - _Korok::R32:
     comment: Pinwheel
 
-- .dir(N>)
+- .dir([1:00])
 - _Shrine::KahOkeo:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=9967s)

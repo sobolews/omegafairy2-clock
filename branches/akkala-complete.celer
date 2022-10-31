@@ -2,29 +2,29 @@ Akkala Complete:
 - _Warp::Tower::Akkala:
     comment: WARP
 
-- .dir(S) down
+- .dir([6:00]) down
 - _Korok::A42
 
 - Down
 - _Korok::A43
 
-- .dir(SE)
+- .dir([4:30])
 - _Korok::A46
 
-- .dir(W>):
+- .dir([10:00]):
     notes: Curve the windbomb over bridge ruins to discover location and then land at rock
 - _Discover<Akkala Bridge Ruins>:
     coord: [3161.60, 442.88, -1416.64]
 - _Korok::A45
 
-- .dir(N>)
+- .dir([1:00])
 - _Korok::A41
 
-- .dir(W>)
+- .dir([10:00])
 - _Shrine::ZeKasho:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=20236s)
 
-- .dir(E)
+- .dir([3:00])
 - _Npc<Jana>:
     coord: [3133.57, 306.78, -1693.04]
     notes: Get here before 8pm. Make noon if needed. Little Sister's Big Request.
@@ -35,19 +35,19 @@ Akkala Complete:
     comment: Give armoranth, darners
     notes: Jana, Gleema, Jana, Gleema, Jana
 
-- .dir(E)
+- .dir([3:00])
 - _Npc<Hudson>:
     coord: [3970.74, 233.60, -1623.47]
 
-- .dir(E>)
+- .dir([4:00])
 - _Korok::A44:
     comment: .gale()
     gale: 1
 
-- .dir(NE) surf
+- .dir([1:30]) surf
 - _Korok::A35
 
-- .dir(<<S) run
+- .dir([4:45]) run
 - _Korok::A36:
     movements:
         - to: [4691.71, 136.71, -1777.33]

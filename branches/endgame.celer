@@ -7,7 +7,7 @@ Endgame:
     comment: WARP 99.66%
     notes: .link([Missable Locations]https://drive.google.com/file/d/1hN-TJYfVUIlQGkuJYRkK4f0mCPJoIyxW/view)
 
-- .dir(<E)
+- .dir([2:00])
 - Activate .loc(Fairy Fountain):
     icon: location
     coord: [4105.00, 263.97, -1370.00]
@@ -18,10 +18,10 @@ Endgame:
     # notes: Set of the Wild, Zora Set, Champion's Tunic
     notes: Last 2 set of the wild, Zora Helm + Zora Greaves, Champion's Tunic + Zora Armor, remaing Set of the Wild
 
-- .dir(S) run
+- .dir([6:00]) run
 - _Korok::A48
 
-- .dir(N>)
+- .dir([1:00])
 - _Npc<Kilton>:
     coord: [4152.87, 194.63, -1597.24]
 - Sell Lizalfos Tails for .!!(mon):
@@ -35,7 +35,7 @@ Endgame:
     hide-icon-on-map: true
     notes: Map of .link([Hinox, Stalnox, and Talus]https://objmap.zeldamods.org/#/map/z3,0,0?q=%28talus%20OR%20enemy_giant_bone%20OR%20hinox%29%20NOT%20titan)
 
-- .dir(.W)
+- .dir([8:30])
 - _Npc<Ruli>:
     coord: [3968.57, 233.44, -1590.29]
     notes: A Parent's Love
@@ -87,7 +87,7 @@ Endgame:
     line-color: dodgerblue
     comment: WARP 99.83%
 
-- .dir(.S)
+- .dir([5:30])
 
 - _Discover<Big Twin Bridge>:
     coord: [1673.11, 107.36, 2032.82]
@@ -95,7 +95,7 @@ Endgame:
 - _Discover<Little Twin Bridge>:
     coord: [1714.18, 106.66, 2149.55]
 
-- .dir(NE)
+- .dir([1:30])
 - Tame a horse:
     icon: tots
     coord: [1784.94, 117.91, 2036.54]
@@ -106,6 +106,6 @@ Endgame:
     coord: [1748.38, 116.11, 1923.67]
     comment: Wild Horses
 
-- .dir(.E)
+- .dir([2:30])
 - _Memory::AshSwamp:
     notes: GG

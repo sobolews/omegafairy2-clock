@@ -1,5 +1,5 @@
 The Glitch:
-- BLSS .dir(W>) to .loc(Mushroom Woods):
+- BLSS .dir([10:00]) to .loc(Mushroom Woods):
     coord: [-2203.83, 267.93, 792.66] 
 
 - _Material<2+ Zapshroom>:
@@ -17,7 +17,7 @@ The Glitch:
 - _Material<2 Endura Shroom>:
     notes: Do not eat. Will need for stamina food.
 
-- .dir(W)
+- .dir([9:00])
 - _Material<2 Courser Bee Honey>:
     movements:
       - to: [-2469.11, 319.03, 746.31]
@@ -31,14 +31,14 @@ The Glitch:
     var-change:
       Scrap: 1
 
-- .dir(W>) short
+- .dir([10:00]) short
 - _Material<2 Silent Princess>:
     coord: [-2572.44, 307.32, 660.62]
 
 - _Material<4 Fleet-Lotus Seed>:
     coord: [-2558.07, 306.99, 655.56]
 
-- .dir(E.)
+- .dir([3:30])
 - _Material<1 Rushroom>:
     coord: [-2349.25, 355.64, 672.69]
 - _Chest<Forest Dweller's Bow>:
@@ -46,13 +46,13 @@ The Glitch:
 - _Material<1 Acorn>:
     coord: [-2338.68, 348.73, 678.83]
 
-- .dir(N.)
+- .dir([12:30])
 - _Material<10 Hearty Durians>:
     coord: [-2196.75, 410.21, 443.15]
     notes: Use for food; save 1 for quest
 - _Material<2+ Wood>
 
-- .dir(W)
+- .dir([9:00])
 - Kill 2+ .enemy(Mountain Crows):
     icon: calamity
     coord: [-2299.82, 439.59, 469.19]
@@ -68,11 +68,11 @@ The Glitch:
 - _Shrine::MoggLatan:
     notes: .link([Shrine Strat]https://youtu.be/ZCgad_IJxoA?t=1646)
 
-- BLSS .dir(NE) to .loc(Hyrule Castle)
+- BLSS .dir([1:30]) to .loc(Hyrule Castle)
 - _Chest<5 Shock Arrow>:
     coord: [11.00, 182.58, -879.37]
 
-- .dir(<W)
+- .dir([8:00])
 - _Chest<3 Ancient Arrows>:
     coord: [-254.00, 209.67, -742.37]
     notes: Don't pick up the Royal Bow
@@ -80,20 +80,20 @@ The Glitch:
     icon: bow
     hide-icon-on-map: true
 
-- .dir(S)
+- .dir([6:00])
 - Kill 1-3 .enemy(Stalkers):
     icon: calamity
     coord: [-254.50, 130.00, -334.40]
     comment: 3 Screw, 2 Spring, 1 Shaft
     notes: Skip gears. Continue even if less than 3 screws. Don't take more than 2 Spring, 1 Shaft. Take core if one drops.
 
-- .dir(SE) to .loc(Kaya Wan)
+- .dir([4:30]) to .loc(Kaya Wan)
 - In shrine
 - _Chest<Ancient Core>:
     hide-icon-on-map: true
 - _Shrine::KayaWan
 
-- .dir(E.)
+- .dir([3:30])
 - Kill .enemy(Green Lizalfos):
     icon: calamity
     notes: (Optional) Safety for horn/talon rng.
@@ -101,7 +101,7 @@ The Glitch:
 - _Shrine::DakaTuss:
     notes: Good place to eat steak. .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=2053s)
 
-- .dir(S) + .dir(E.) + .dir(.S)
+- .dir([6:00]) + .dir([3:30]) + .dir([5:30])
 - _Npc::SheikaFemale<Paya and Impa>:
     coord: [1772.71, 229.43, 984.31]
 - _Equipment::Shield<Pot Lid>:
@@ -113,18 +113,18 @@ The Glitch:
     comment: 9pm to 7am
     notes: Make morning if needed
 
-- .dir(N.) to .loc(Ta'loh Naeg)
+- .dir([12:30]) to .loc(Ta'loh Naeg)
 - In shrine
 - _Chest<Opal>:
     hide-icon-on-map: true
 - _Shrine::TalohNaeg:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=2472s)
 
-- .dir(.E)
+- .dir([2:30])
 - _Material<1+ Fairy>:
     coord: [1963.57, 269.72, 860.48]
 
-- .dir(W.) up to .loc(hill)
+- .dir([9:30]) up to .loc(hill)
 - _Material<3 Silent Princess>:
     movements:
         - to: [1846.14, 327.67, 820.96]
@@ -135,7 +135,7 @@ The Glitch:
     var-change:
       Scrap: 1
 
-- BLSS .dir(S) + WB .dir(S) to .loc(Riola Spring):
+- BLSS .dir([6:00]) + WB .dir([6:00]) to .loc(Riola Spring):
     notes: (Backup/safety) There are chests with shock arrows and a Phrenic Bow in the spring
 
 - Set repeating campfire:
@@ -159,7 +159,7 @@ The Glitch:
 - _Equipment::Weapon<Pick up Torch>:
     hide-icon-on-map: true
 
-- .dir(S)
+- .dir([6:00])
 - Kill .enemy(Black Lizalfos):
     icon: calamity
     coord: [1691.87, 280.72, 3661.50]
@@ -184,7 +184,7 @@ The Glitch:
     hide-icon-on-map: true
     notes: For koroks later
 
-- BLSS .dir(NE)
+- BLSS .dir([1:30])
 
 - Activate .loc(Myahm Agana):
     icon: shrine

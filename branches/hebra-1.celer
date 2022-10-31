@@ -1,77 +1,77 @@
 Hebra 1:
 ### Hebra 1
-- .dir(N.) + .dir(.E):
+- .dir([12:30]) + .dir([2:30]):
     notes: Climb out
 - _Boss::Talus::Frost:
     comment: .fury()
     fury: 3
     coord: [-3709.50, 331.28, -2347.00]
 
-- .gale() + .dir(N) midair:
+- .gale() + .dir([12:00]) midair:
     gale: 1
 - _Korok::H54
 
-- .dir(E>) + midair
+- .dir([4:00]) + midair
 - _Korok::H55
 
-- .dir(N.) + midair
+- .dir([12:30]) + midair
 - _Korok::H43
 
-- .dir(<N) + midair
+- .dir([11:00]) + midair
 - _Korok::H27:
-    comment: Aim .dir(N), .dir(W), .dir(E>)
+    comment: Aim .dir([12:00]), .dir([9:00]), .dir([4:00])
 
-- .dir(<E)
+- .dir([2:00])
 - _Shrine::ShadaNaw:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=16042s)
 
-- .dir(W>>)
+- .dir([10:15])
 - _Korok::H10:
     comment: " "
 
-- midair .dir(E)
+- midair .dir([3:00])
 - _Korok::H11
 
-- .dir(NW) down
+- .dir([10:30]) down
 - _Korok::H09
 
-- .dir(NW):
+- .dir([10:30]):
     notes: Climb out
 - _Korok::H04:
     comment: " "
 
-- .dir(<W)
+- .dir([8:00])
 - _Boss::Hinox::Stal:
     coord: [-4260.15, 327.00, -3777.48]
     comment: Ancient arrows
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::H01
 
 - Run
 - _Shrine::HiaMiu:
     comment: Major Test of Strength
 
-- .dir(S.) + midairs
+- .dir([6:30]) + midairs
 - _Korok::H23:
     comment: On peak far
 
-- .dir(N>)
+- .dir([1:00])
 - _Discover<Sherfin's Hot Spring>:
     coord: [-4309.50, 460.50, -3495.00]
 
-- .dir(N.) + climb
+- .dir([12:30]) + climb
 - _Korok::H07:
     comment: " "
     notes: Pre-aim, walk onto start block, instant square-first windbomb
     time-override: 360
 
-- .gale() + .dir(E):
+- .gale() + .dir([3:00]):
     gale: 1
 - _Korok::H08:
-    comment: Aim .dir(<<S) above lasers
+    comment: Aim .dir([4:45]) above lasers
 
-- .dir(N)
+- .dir([12:00])
 - _Korok::H02:
     comment: " "
 

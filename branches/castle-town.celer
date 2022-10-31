@@ -3,114 +3,114 @@ Castle Town Ruins:
     coord: [1760.46, 115.80, -36.04]
     notes: (Optional) You need to make it to Shamae at Mirro Shaz before 8pm and need it be after 9pm for a Stalnox
 
-- .dir(S.)
+- .dir([6:30])
 - _Korok::Z40
 
-- midair .dir(W)
+- midair .dir([9:00])
 - _Korok::Z30:
     comment: In building ruins
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::Z29:
     comment: Among trees
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::C46
 
-- .dir(S>>)
+- .dir([7:15])
 - _Korok::C51:
     comment: On pillar
 
-- .dir(<S)
+- .dir([5:00])
 - _Memory::HyruleField
 
-- .dir(W>)
+- .dir([10:00])
 - _Boss::Hinox::Blue:
     coord: [421.00, 161.27, 329.50]
     comment: Ancient arrows
 
-- .dir(S>)
+- .dir([7:00])
 - _Korok::C56
 
-- .dir(NW)
+- .dir([10:30])
 - _Korok::C50:
     comment: " "
     notes: This is the "Chaos Ranch." For safety, ancient arrow everything before starting the chase.
 
-- .dir(W>>)
+- .dir([10:15])
 - _Discover<Mabe Village Ruins>:
     coord: [-48.50, 133.00, 175.00]
 
 - _Korok::C44:
     comment: On hill
 
-- .dir(E)
+- .dir([3:00])
 - _Korok::C45
 
-- .dir(N>>)
+- .dir([1:15])
 - _Korok::C34:
     comment: " "
 
-- .dir(N>) short
+- .dir([1:00]) short
 - _Boss::Hinox::Blue:
     coord: [626.49, 123.09, -305.54]
     comment: Ancient arrows
 
-- .dir(E>)
+- .dir([4:00])
 - _Korok::Z21:
     comment: " "
 
-- .dir(N)
+- .dir([12:00])
 - _Korok::Z11
 
-- .dir(N>>)
+- .dir([1:15])
 - _Korok::C13:
     comment: On bridge
 
-- .dir(<E)
+- .dir([2:00])
 - _Korok::K35
 
-- .dir(S>)
+- .dir([7:00])
 - _Korok::Z02:
     comment: Starts in big tree
 - _Korok::Z03
 
-- .dir(NW)
+- .dir([10:30])
 - _Npc<Shamae>:
     coord: [1080.50, 127.38, -1125.00]
     notes: Make noon if needed. For Balloon Flight.
     comment: Before 8pm
 
-- .dir(E)
+- .dir([3:00])
 - _Korok::K34:
     comment: " "
 
-- .dir(W>) short
+- .dir([10:00]) short
 - _Korok::K33
 
-- .dir(N>) short
+- .dir([1:00]) short
 - _Shrine::MirroShaz:
     notes: Stalnox coming up. Make night if needed. .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=7474s)
 
-- .dir(W>)
+- .dir([10:00])
 - _Discover<Rauru Settlement Ruins>:
     coord: [704.00, 144.00, -1251.50]
     notes: With superlaunch, can get this location while gilding through on the way to Helmhead Bridge
 
-- .dir(<W)
+- .dir([8:00])
 - _Discover<Helmhead Bridge>:
     coord: [398.29, 126.25, -1167.31]
 
-- .dir(E>)
+- .dir([4:00])
 - _Korok::C02
 
-- .dir(E>>)
+- .dir([4:15])
 - _Boss::Talus::Luminous:
     comment: .fury()
     fury: 2
     coord: [771.50, 152.53, -1014.00]
 
-- .gale() + .dir(S):
+- .gale() + .dir([6:00]):
     gale: 1
 - In shrine
 - Fight Test of Strength:
@@ -125,120 +125,120 @@ Castle Town Ruins:
 - _Shrine::NamikaOzz:
     comment: Modest Test of Strength
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::C09
 
-- .dir(SW)
+- .dir([7:30])
 - _Korok::C11:
     comment: Inside hollow log
 
-- .dir(E>)
+- .dir([4:00])
 - _Korok::C12
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::C19
 
-- .dir(<<W)
+- .dir([7:45])
 - _Discover<Orsedd Bridge>:
     coord: [517.11, 135.39, -497.24]
 
 - _Korok::C23
 
-- .dir(<N)
+- .dir([11:00])
 - _Korok::C18
 
-- .dir(W>)
+- .dir([10:00])
 - _Korok::C10:
     comment: On bridge
 
-- .dir(<E)
+- .dir([2:00])
 - _Korok::C06:
     comment: " "
 
-- .dir(W>)
+- .dir([10:00])
 - _Korok::C05:
     comment: " "
 
-- .dir(SW)
+- .dir([7:30])
 - _Boss::Hinox::Stal:
     comment: Ancient arrows + .fury()
     fury: 1
     coord: [256.50, 142.49, -913.50]
 
-- .dir(W>)
+- .dir([10:00])
 - _Korok::C04
 
-- .dir(S>)
+- .dir([7:00])
 - _Korok::C17
 
-- .dir(S)
+- .dir([6:00])
 - _Korok::C29
 
 - Down
 - _Korok::C28
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::C32
 - _Korok::C27:
     comment: " "
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::C31
 
-- .dir(NW)
+- .dir([10:30])
 - _Shrine::KatahChuki:
     comment: Minor Test of Strength
 
-- .dir(.W)
+- .dir([8:30])
 - _Korok::C30:
     comment: " "
 
-- .dir(N>)
+- .dir([1:00])
 - _Korok::C25
 
-- .dir(.E)
+- .dir([2:30])
 - _Korok::C26
 
-- .dir(N>)
+- .dir([1:00])
 - _Discover<Water Reservoir>:
     coord: [-596.67, 130.98, -525.32]
 
-- .dir(W>) run
+- .dir([10:00]) run
 - _Korok::C22
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::C21
 
-- .dir(N>>) down
+- .dir([1:15]) down
 - _Korok::C20
 
-- .dir(N)
+- .dir([12:00])
 - _Boss::Talus::Rare:
     comment: Boulder Breaker
     coord: [-768.74, 152.76, -804.49]
 
-- .dir(SE)
+- .dir([4:30])
 - _Korok::C15:
     comment: " "
 
-- .dir(<N)
+- .dir([11:00])
 - _Korok::C08:
     comment: Drop Rusty Shield, leave it
 
-- .dir(N) run
+- .dir([12:00]) run
 - _Korok::C03
 
-- .dir(NW)
+- .dir([10:30])
 - _Korok::C01:
     comment: Against malice pillar
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::R11
 
-- .dir(<S)
+- .dir([5:00])
 - _Korok::C07
 
-- .dir(S)
+- .dir([6:00])
 - _Korok::C14
 
 - Down

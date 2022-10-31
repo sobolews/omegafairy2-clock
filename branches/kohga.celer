@@ -3,20 +3,20 @@ Kohga:
     line-color: lightyellow
     comment: WARP
 
-- .dir(<S) + midair
+- .dir([5:00]) + midair
 - _Korok::G19
 
-- .dir(NW) + .dir(W)
+- .dir([10:30]) + .dir([9:00])
 - _Korok::G13
 
-- .dir(N) + .dir(W>)
+- .dir([12:00]) + .dir([10:00])
 - _Korok::G10
 
-- .dir(W) + .dir(S)
+- .dir([9:00]) + .dir([6:00])
 - _Korok::G12:
     comment: On bridge
 
-- .dir(<<S)
+- .dir([4:45])
 - Melt ice with Fire Arrows:
     icon: tots
     hide-icon-on-map: true
@@ -33,7 +33,7 @@ Kohga:
 - _Shrine::KuhTakkar:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=11386s)
 
-- .dir(S):
+- .dir([6:00]):
     notes: BLSS or 2 windbombs
 - _Tower::Gerudo
 
@@ -42,22 +42,22 @@ Kohga:
     # comment: Sign of the Shadow
     comment: Text option 2-1
 
-- .dir(S) down
+- .dir([6:00]) down
 - _Korok::W29:
     comment: " "
 
-- .dir(.S)
+- .dir([5:30])
 - _Npc<Benja>:
     coord: [-3804.64, 149.50, 2818.36]
 - _Shrine::DaqoChisay:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=12049s)
 
-- .dir(<E)
+- .dir([2:00])
 - _Npc<Vilia>:
     coord: [-3259.27, 163.93, 2611.54]
     comment: Buy clothes
 
-- .dir(<W)
+- .dir([8:00])
 - _Tod::Morning:
     coord: [-3832.79, 148.98, 2948.17]
     notes: Timing for ice house after Naboris (opens at 7am)
@@ -70,21 +70,21 @@ Kohga:
     coord: [-3892.04, 157.48, 2968.14]
     comment: In throne room
 
-- .dir(.W)
+- .dir([8:30])
 - _Korok::W47:
     comment: On skeleton
 
-- .dir(N)
+- .dir([12:00])
 - _Korok::W36
 
-- midair .dir(<<N)
+- midair .dir([9:45])
 - _Korok::W28
 
 
 - _Warp::Shrine::KuhTakkar:
     comment: WARP
 
-- .dir(<W)
+- .dir([8:00])
 - .loc(Yiga Hideout):
     icon: house-plus
     hide-icon-on-map: true

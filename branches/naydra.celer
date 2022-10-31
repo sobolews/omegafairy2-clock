@@ -3,36 +3,36 @@ Naydra:
     line-color: skyblue
     comment: WARP 
     
-- .dir(<<E)
+- .dir([1:45])
 - _Korok::N44
 
-- .dir(<N) + midairs
+- .dir([11:00]) + midairs
 - Begin Free Naydra:
     icon: tots
     coord: [3965,1353]
     notes: Shoot an eye before each of the following three koroks (N24, N31, N39)
 
-- .dir(W>)
+- .dir([10:00])
 - _Korok::N24:
     comment: " "
 
-- .dir(<S)
+- .dir([5:00])
 - _Korok::N31:
     comment: Way way down
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::N39:
     comment: " "
 
-- .dir(W>) + midair
+- .dir([10:00]) + midair
 - _Korok::N21:
     comment: Far peak
 
-- .dir(E>)
+- .dir([4:00])
 - _Korok::N29:
     comment: " "
 
-- .dir(<E):
+- .dir([2:00]):
     coord: [3241.75,1472.75]
 
 - _Korok::N30:
@@ -41,10 +41,10 @@ Naydra:
           away: true
     comment: .rune(Stasis) apple and bomb arrow
 
-- .dir(N>) run
+- .dir([1:00]) run
 - _Korok::N22
 
-- .dir(<E)
+- .dir([2:00])
 - Shoot final eye:
     icon: calamity
     coord: [3502.5,1433]
@@ -67,11 +67,11 @@ Naydra:
     notes: If between 12:00pm and 5:00am, need to make morning twice to properly advance a day so Naydra spawns
     hide-icon-on-map: true
 
-- .dir(S>) + .dir(N)
+- .dir([7:00]) + .dir([12:00])
 - _Korok::N18:
     comment: " "
 
-- .dir(E>)
+- .dir([4:00])
 - Shoot Naydra (Claw):
     icon: calamity
     hide-icon-on-map: true
@@ -86,21 +86,21 @@ Naydra:
     icon: tots
     hide-icon-on-map: true
 
-- .dir(NE)
+- .dir([1:30])
 - _Material<2 Chillshroom>:
     coord: [4127.29, 426.47, 1133.65]
     notes: For transmute
 - _Korok::N19
 
-- .gale() + .dir(W):
+- .gale() + .dir([9:00]):
     gale: 1
 - _Korok::N17:
     comment: " "
 
-- .dir(<S)
+- .dir([5:00])
 - _Korok::N23
 
-- .dir(W>)
+- .dir([10:00])
 - _Boss::Hinox::Red:
     coord: [3250.94, 268.75, 1331.63]
     comment: Ancient arrows
@@ -110,38 +110,38 @@ Naydra:
         - to: [3261.15, 263.12, 1211.79]
           away: true
 
-- .dir(<N)
+- .dir([11:00])
 - _Memory::LanayruRoad
 
-- .dir(S) + .dir(N) + midair
+- .dir([6:00]) + .dir([12:00]) + midair
 - _Boss::Hinox::Blue:
     coord: [2990.90, 251.39, 787.92]
     comment: .fury()
     fury: 3
     notes: (Optional) Take a Knight's Bow (metal) for Eldin
 
-- .dir(<W) + midair
+- .dir([8:00]) + midair
 - _Korok::N13:
     comment: .rune(Stasis) & hit, .rune(Stasis) & hit
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::N11:
     comment: " "
 
-- .dir(S>)
+- .dir([7:00])
 - _Boss::Hinox::Red:
     coord: [2414.72, 304.69, 1177.84]
     comment: Ancient arrows
 
-- .dir(E>)
+- .dir([4:00])
 - _Korok::N20
 
-- .dir(N>)
+- .dir([1:00])
 - _Korok::N15
 
-- .dir(E>>)
+- .dir([4:15])
 - _Korok::N16
 
-- .dir(S)
+- .dir([6:00])
 - _Shrine::DowNaeh:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=2918s)

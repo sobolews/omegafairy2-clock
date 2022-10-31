@@ -3,115 +3,115 @@ Hebra 2:
     comment: WARP
     notes: If you are low on fire arrows, you can warp to Dah Hesho and turn in 50 wood to Hudson now. Fyson will be there selling arrows. Then warp to Shada Naw and continue.
 
-- .dir(S.) way down
+- .dir([6:30]) way down
 - _Boss::Talus::Frost:
     line-color: yellow
     comment: Bomb arrows
     coord: [-3073.50, 478.42, -2918.50]
 
-- .dir(S>)
+- .dir([7:00])
 - _Korok::H33
 
 - .gale():
     gale: 1
 - _Korok::H34
 
-- .dir(S>) over and down
+- .dir([7:00]) over and down
 - _Korok::H46
 
-- .dir(SE)
+- .dir([4:30])
 - _Korok::H48
 
-- .dir(N)
+- .dir([12:00])
 - _Korok::H49
 
-- .dir(N) run
+- .dir([12:00]) run
 - _Korok::H50:
-    comment: Look .dir(E)
+    comment: Look .dir([3:00])
     movements:
         - to: [-2836.29, 501.88, -2423.84]
           away: true
 
 - _Korok::H47:
-    comment: Look .dir(NW)
+    comment: Look .dir([10:30])
     movements:
         - to: [-2900.08, 498.65, -2508.79]
           away: true
 
-- .dir(<N)
+- .dir([11:00])
 - _Korok::H44:
     comment: In cave, right of flag
 
-- midair .dir(E>) down
+- midair .dir([4:00]) down
 - _Korok::H45
 
-- .dir(S)
+- .dir([6:00])
 - _Korok::H56
 
-- .dir(NE)
+- .dir([1:30])
 - _Korok::H51:
     comment: On ledge against cliff
 
-- .dir(E>)
+- .dir([4:00])
 - _Shrine::GeeHarah:
     notes: .link([Snowball strat]https://youtu.be/cbn3TgjVdDk), .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=17423s)
 
-- .dir(N) + .dir(S) + .dir(E):
+- .dir([12:00]) + .dir([6:00]) + .dir([3:00]):
     movements:
         - to: [-2387,-2436]
 
 - _Korok::H57
 
-- .dir(<W)
+- .dir([8:00])
 - _Shrine::LannoKooh
 
 - _Korok::H64
 
-- .dir(<E)
+- .dir([2:00])
 - _Korok::H61:
     comment: On peak
 
-- .dir(E>)
+- .dir([4:00])
 - _Tower::Hebra
 
-- .dir(<E) down
+- .dir([2:00]) down
 - _Discover<Pondo's Lodge>:
     coord: [-2076.70, 389.70, -2080.90]
 
-- .dir(SW)
+- .dir([7:30])
 - _Korok::H67
 
-- .dir(<S) surf
+- .dir([5:00]) surf
 - _Korok::H70
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::H69:
     comment: " "
 
-- midair .dir(<W)
+- midair .dir([8:00])
 - _Korok::H72
 
-- .dir(W>)
+- .dir([10:00])
 - _Korok::T18
 
-- .dir(N>)
+- .dir([1:00])
 - _Boss::Talus::Rare:
     comment: .fury()
     fury: 3
     coord: [-2864.50, 408.98, -1825.91]
 
-- .dir(NE)
+- .dir([1:30])
 - _Korok::H65:
     comment: Top of bare tree
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::H66:
     comment: " "
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::T11
 
-- .dir(SW) short
+- .dir([7:30]) short
 - _Npc<Gesane>:
     coord: [-3308.27, 227.83, -1803.34]
     comment: On bridge
@@ -123,63 +123,63 @@ Hebra 2:
     comment: At cookpot
     notes: Curry for What Ails You
 
-- .dir(S)
+- .dir([6:00])
 - _Korok::T21
 
-- .dir(NE)
+- .dir([1:30])
 - _Korok::T19:
     movements:
         - to: [-3151.57, 185.50, -1563.28]
           away: true
     comment: In canyon below, drownwarp
 
-- .dir(E)
+- .dir([3:00])
 - _Korok::T22:
     comment: On ledge against cliff
 
-- .dir(<S)
+- .dir([5:00])
 - _Korok::T25
 
-- .dir(<E) + midairs
+- .dir([2:00]) + midairs
 - _Korok::R05
 
-- .dir(S) surf
+- .dir([6:00]) surf
 - _Discover<Footrace Check-In>:
     coord: [-2638.00, 282.34, -1175.00]
 
-- .dir(S) + midair
+- .dir([6:00]) + midair
 - _Korok::R13
 
-- .dir(S.)
+- .dir([6:30])
 - _Korok::R17
 
-- .dir(SE)
+- .dir([4:30])
 - _Boss::Hinox::Blue:
     coord: [-2370.05, 261.70, -419.59]
     comment: Ancient arrows
 - _Korok::R31:
-    comment: Look .dir(S)
+    comment: Look .dir([6:00])
     movements:
         - to: [-2370.11, 307.05, -345.31]
           away: true
 - _Korok::R22:
-    comment: Look .dir(NW)
+    comment: Look .dir([10:30])
     movements:
         - to: [-2434.11, 319.87, -491.04]
           away: true
 
-- .dir(S>)
+- .dir([7:00])
 - _Korok::R30:
     comment: " "
 
-- .dir(NW)
+- .dir([10:30])
 - _Korok::R21
 
-- .dir(W)
+- .dir([9:00])
 - _Shrine::ShaeLoya:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=21597s)
 
-- .dir(.N) run
+- .dir([11:30]) run
 - _Npc<Geggle>:
     coord: [-2912.28, 274.78, -551.75]
     notes: Cliffside Etchings
@@ -190,34 +190,34 @@ Hebra 2:
     coord: [-2916.00, 274.73, -561.00]
     comment: Gift for the Great Fairy
 
-- .dir(W>) run
+- .dir([10:00]) run
 - _Korok::T34:
     comment: " "
 
-- .dir(S>) down
+- .dir([7:00]) down
 - _Korok::R28
 
-- .dir(E) run
+- .dir([3:00]) run
 - _Korok::R29
 
-- .dir(N)
+- .dir([12:00])
 - _Korok::R20
 
-- .dir(N>)
+- .dir([1:00])
 - _Discover<Tanagar Canyon Course>:
     coord: [-3119.20, -0.58, -627.77]
 
-- .dir(N)
+- .dir([12:00])
 - _Korok::R12
 
-- .dir(N.) + midairs
+- .dir([12:30]) + midairs
 - _Shrine::DunbaTaag:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=21967s)
 
-- .dir(S):
+- .dir([6:00]):
     notes: Behind shrine
 - _Korok::H73:
     comment: " "
 
-- .dir(E>) down
+- .dir([4:00]) down
 - _Korok::R04

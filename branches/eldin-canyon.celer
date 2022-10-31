@@ -35,70 +35,70 @@ Eldin Canyon:
     coord: [3327.76, 256.41, -522.71]
     comment: From the Ground Up
 
-- .dir(S) +  .dir(W>) midairs:
+- .dir([6:00]) +  .dir([10:00]) midairs:
     coord: [3324,-348]
 - _Korok::Z15:
     comment: High up against cliff
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::Z14
 
-- .dir(S>)
+- .dir([7:00])
 - _Tower::Lanayru
 
-- .dir(N>>) down
+- .dir([1:15]) down
 - _Discover<Inogo Bridge>:
     coord: [2344.50, 119.50, -247.89]
 
-- .dir(W>)
+- .dir([10:00])
 - _Shrine::SohKofi:
     comment: Minor Test of Strength
 
-- .dir(W>)
+- .dir([10:00])
 - _Korok::Z13:
     comment: " "
 
-- .dir(<<E)
+- .dir([1:45])
 - _Korok::E45:
     comment: " "
 
-- .dir(N)
+- .dir([12:00])
 - _Shrine::TahMuhl
 
-- .dir(E)
+- .dir([3:00])
 - _Korok::E44:
     comment: Among rocks by road
 
-- .dir(N>)
+- .dir([1:00])
 - _Shrine::MoaKeet:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=19986s)
 
-- .dir(W) short
+- .dir([9:00]) short
 - _Npc<Mayro>:
     coord: [2620.40, 253.87, -1144.95]
     comment: Landscape of a Stable
 
-- .dir(<N)
+- .dir([11:00])
 - _Korok::E40
 
-- .dir(N)
+- .dir([12:00])
 - _Korok::E38
 
-- .dir(W) down
+- .dir([9:00]) down
 - _Discover<Maw Of Death Mountain>:
     coord: [2390.91, 226.13, -1316.35]
 
-- midair .dir(S>)
+- midair .dir([7:00])
 - _Korok::E42:
     comment: On ledge below bridge
 - _Korok::E41
 
-- .dir(S>)
+- .dir([7:00])
 - _Korok::E43
 
-- .dir(NW) down
+- .dir([10:30]) down
 - _Korok::E37
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::E36:
     comment: " "

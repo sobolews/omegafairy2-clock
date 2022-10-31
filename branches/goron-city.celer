@@ -4,21 +4,21 @@ Goron City:
     icon: shield
     hide-icon-on-map: true
 
-- .dir(<<N)
+- .dir([9:45])
 - _Korok::E27
 
-- .dir(<W):
+- .dir([8:00]):
     notes: Windbombs won't work on the first (and only the first) tick of burn damage. Either go fast or wait until the second tick.
 - _Boss::Talus::Igneo:
     coord: [1795.54, 394.18, -1746.73]
     comment: .fury() from ledge above
     fury: 3
 
-- .dir(.N)
+- .dir([11:30])
 - _Korok::E26:
     comment: " "
 
-- .dir(.N) to .loc(Southern Mine)
+- .dir([11:30]) to .loc(Southern Mine)
 
 - _Material<10 Fireproof Lizard>:
     movements:
@@ -47,32 +47,32 @@ Goron City:
     coord: [1656.63, 430.15, -1968.53]
     comment: From the Ground Up
 
-- .dir(NW)
+- .dir([10:30])
 - _Korok::E19
 
-- .dir(N>) + midair
+- .dir([1:00]) + midair
 - _Korok::E18:
     comment: " "
 
-- .dir(N.)
+- .dir([12:30])
 - _Discover<Stolock Bridge>:
     coord: [1648.20, 565.86, -2437.53]
     notes: Can discover by gliding over. Landing on the bridge will trigger the Rudania cutscene (make sure bow is not burning if you do).
 
-- midair .dir(N)
+- midair .dir([12:00])
 - _Korok::E14:
     comment: Start on Daruk's head
 
-- .dir(W) short
+- .dir([9:00]) short
 - _Korok::E13:
     comment: Underneath arm
 
-- .dir(S.):
+- .dir([6:30]):
     notes: If you didn't land on the bridge before, the Rudania cutscene will trigger here
 - _Korok::E15:
     comment: In smiling Goron's mouth
 
-- .dir(NE) down
+- .dir([1:30]) down
 - _Shop<Buy Goron Spice>:
     coord: [1689.61, 491.59, -2468.49]
     comment: Potion Shop
@@ -80,11 +80,11 @@ Goron City:
 - _Npc::Goron<Bludo>:
     coord: [1713.95, 498.05, -2446.92]
 
-- .dir(N>)
+- .dir([1:00])
 - _Shrine::ShaeMosah:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=18427s)
 
-- .dir(<N)
+- .dir([11:00])
 - _Npc::Goron<Yunobo>:
     coord: [1630.68, 560.52, -2941.37]
 
@@ -92,31 +92,31 @@ Goron City:
     gale: 1
 - _Korok::E08
 
-- .dir(<E) + midair
+- .dir([2:00]) + midair
 - _Korok::E09:
     comment: On rock arch
 
-- .dir(<<E)
+- .dir([1:45])
 - _Korok::E06:
     comment: Down in corner
     notes: Rare ore deposit here for amber if still needed
 
-- .gale() + .dir(<<W):
+- .gale() + .dir([7:45]):
     gale: 1
 - _Boss::Talus::Igneo:
     coord: [2146.50, 535.83, -3011.50]
     comment: .rune(Stasis) and Ancient arrows
     notes: Igneo taluses have the best chance to drop flint for Jewel Trade. Collect drops here and with remaining three igneo taluses until you have 11 flint.
 
-- .dir(S>) + midair
+- .dir([7:00]) + midair
 - _Korok::E11:
     comment: Rock above, circle below
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::E10:
     comment: Pinwheel
 
-- .dir(NW)
+- .dir([10:30])
 - _Korok::E07:
     comment: Top of crab island
 
@@ -129,32 +129,32 @@ Goron City:
     coord: [1593.5,-3090.5]
     notes: .rune(Stasis) the minecart once you have a good angle
 
-- .dir(<W)
+- .dir([8:00])
 - _Boss::Talus::Igneo:
     coord: [1336.10, 507.31, -3043.21]
     comment: .rune(Stasis) and Ancient arrows
 
-- .dir(<W) + midair
+- .dir([8:00]) + midair
 - _Korok::K08:
     comment: Pinwheel
 
-- .dir(W>)
+- .dir([10:00])
 - _Korok::K07:
     comment: Pinwheel
 
-- .dir(W>)
+- .dir([10:00])
 - _Korok::K06:
     comment: " "
 
-- midair .dir(W>)
+- midair .dir([10:00])
 - _Korok::K05:
     comment: Pinwheel
 
-- .dir(W>) + midairs
+- .dir([10:00]) + midairs
 - _Korok::H16:
     comment: In tree
 
-- midair .dir(N>):
+- midair .dir([1:00]):
     coord: [-777.25,-3525]
     notes: See map for where to drop in
 - _Chest<Barbarian Legs>:
@@ -162,18 +162,18 @@ Goron City:
     hide-icon-on-map: true
 - _Shrine::QazaTokki
 
-- .dir(W) + .dir(SW)
+- .dir([9:00]) + .dir([7:30])
 - _Korok::H15
 
-- .dir(W) + .dir(S>)
+- .dir([9:00]) + .dir([7:00])
 - _Korok::H22:
     comment: " "
 
-- .dir(SE) + midairs
+- .dir([4:30]) + midairs
 - _Korok::K11:
     comment: Peak far away
 
-- .dir(<<E) + .dir(NE)
+- .dir([1:45]) + .dir([1:30])
 - _Boss::Hinox::Blue:
     coord: [341.82, 278.73, -3116.14]
     comment: Ancient arrows

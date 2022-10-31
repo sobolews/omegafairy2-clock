@@ -1,19 +1,19 @@
 Faron:
-- .dir(<S)
+- .dir([5:00])
 - _Korok::D48:
     comment: On ledge
 
-- .dir(SW)
+- .dir([7:30])
 - _Korok::D50
 
-- .dir(E>)
+- .dir([4:00])
 - _Korok::L07:
     comment: .rune(Stasis) 5 hits, aim straight
 
-- .dir(SW)
+- .dir([7:30])
 - _Korok::L19
 
-- .dir(E>)
+- .dir([4:00])
 - _Korok::L20
 
 - Down
@@ -26,56 +26,56 @@ Faron:
 - _Discover<Spring of Courage>:
     coord: [879.50, 123.00, 2388.00]
 
-- .dir(W>)
+- .dir([10:00])
 - _Korok::L13
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::L18
 - _Korok::L17
 
-- .dir(N>) run
+- .dir([1:00]) run
 - _Korok::L12:
     comment: " "
 
-- .gale() + .dir(S>>):
+- .gale() + .dir([7:15]):
     gale: 1
 - _Korok::L28
 
-- .dir(E)
+- .dir([3:00])
 - _Korok::L29:
     comment: On peak
 
-- .dir(E>>) down
+- .dir([4:15]) down
 - _Korok::L34:
     comment: .rune(Stasis) 1-hander jump attack
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::L35
 
-- .dir(S)
+- .dir([6:00])
 - _Korok::L45
 
-- .dir(SE) down
+- .dir([4:30]) down
 - _Korok::L54:
     comment: " "
 
-- .dir(<E)
+- .dir([2:00])
 - _Discover<Zonai Ruins>:
     coord: [889.86, 124.08, 2937.35]
 
-- .dir(<<W) short
+- .dir([7:45]) short
 - _Korok::L56:
     comment: " "
 
-- .dir(S>) run
+- .dir([7:00]) run
 - _Npc::Rito<Kass>:
     coord: [815.25, 117.95, 3063.44]
     comment: The Serpent's Jaws
 
-- .dir(S>) run
+- .dir([7:00]) run
 - _Korok::L57
 
-- .dir(E>>)
+- .dir([4:15])
 - _Korok::F24:
     comment: In tree
 
@@ -84,77 +84,77 @@ Faron:
 
 - _Korok::F23
 
-- .dir(NE)
+- .dir([1:30])
 - _Korok::L58:
     comment: In shallow pool against cliff
 
-- .dir(N)
+- .dir([12:00])
 - _Korok::L46
 
-- .dir(N) + midairs
+- .dir([12:00]) + midairs
 - _Korok::F02:
     comment: Starts on far peak
 
-- .dir(N>)
+- .dir([1:00])
 - _Boss::Talus::Stone:
     comment: Ancient arrows
     coord: [1257.12, 355.80, 2176.52]
 
-- .dir(SE)
+- .dir([4:30])
 - _Korok::F05:
     comment: Pinwheel
 
-- .dir(<<N) down
+- .dir([9:45]) down
 - _Korok::F01
 
-- .dir(S>)
+- .dir([7:00])
 - _Korok::F04:
     notes: Walk slowly over mud
 
-- .dir(<<N) short
+- .dir([9:45]) short
 - _Korok::F03:
     comment: Pinwheel
 
-- .dir(S)
+- .dir([6:00])
 - _Boss::Hinox::Red:
     comment: Ancient arrows
     coord: [1330.55, 180.38, 2623.94]
 
-- midair .dir(<S)
+- midair .dir([5:00])
 - _Korok::F10:
     comment: Starts in cave
 
-- .dir(E>>)
+- .dir([4:15])
 - _Korok::F16:
     comment: .gale()
     gale: 1
 
-- .dir(<<W)
+- .dir([7:45])
 - _Korok::F15
 
-- .dir(E>)
+- .dir([4:00])
 - _Boss::Hinox::Red:
     comment: Ancient arrows
     coord: [1493.39, 306.77, 3092.14]
 
-- .dir(S>) down
+- .dir([7:00]) down
 - _Korok::F25
 
-- .dir(SW)
+- .dir([7:30])
 - _Tower::Faron
 
-- .dir(<S)
+- .dir([5:00])
 - _Korok::F39
 
-- .dir(E>) run
+- .dir([4:00]) run
 - _Korok::F40:
     comment: On small island in bog
 
-- .dir(N.)
+- .dir([12:30])
 - _Korok::F34:
     comment: Pinwheel on large stump
 
-- .dir(<S)
+- .dir([5:00])
 - _Equipment::Weapon<Woodcutter's Axe>:
     coord: [1552.29, 196.63, 3533.36]
     notes: Thunder Magnet
@@ -175,32 +175,32 @@ Faron:
 - _Shrine::ShaiUtoh:
     notes: .link([Shrine Strat]https://youtu.be/MZqANcvFr4c?t=4420)
 
-- .dir(E>) + midair
+- .dir([4:00]) + midair
 - _Korok::F48:
     notes: There are banana trees next to this korok
     comment: " "
 
-- .dir(<S)
+- .dir([5:00])
 - _Korok::F55:
     comment: Up near enemy camp
 
-- .dir(W) down
+- .dir([9:00]) down
 - _Korok::F54:
     comment: Ledge against cliff
 
-- .dir(W)
+- .dir([9:00])
 - _Boss::Talus::Stone:
     comment: .fury()
     fury: 1
     coord: [1392.02, 107.03, 3727.59]
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::F53
 
-- .dir(E>>)
+- .dir([4:15])
 - _Korok::F56
 
-- .dir(E) + midairs
+- .dir([3:00]) + midairs
 - .fury() .!!(Enemy Camp):
     icon: calamity
     comment: Take Back the Sea
@@ -208,98 +208,98 @@ Faron:
     coord: [2087,3916.5]
     notes: Ancient arrow on the one blue bokoblin that doesn't get hit by furies
 
-- .dir(N) + midair
+- .dir([12:00]) + midair
 - _Korok::F43
 
-- .dir(N.)
+- .dir([12:30])
 - _Korok::F30:
     comment: " "
 
-- .dir(S>)
+- .dir([7:00])
 - _Boss::Hinox::Stal:
     coord: [2078.62, 110.22, 3450.66]
     comment: Ancient arrows
 
-- .dir(W>)
+- .dir([10:00])
 - _Korok::F35
 
-- .dir(S>)
+- .dir([7:00])
 - _Korok::F46:
     comment: Behind waterfall
 
-- .dir(<<N)
+- .dir([9:45])
 - _Korok::F42
 
-- .dir(<N)
+- .dir([11:00])
 - _Boss::Talus::Stone:
     comment: Bomb arrows
     coord: [1690.73, 165.27, 3335.62]
 
-- .dir(N.)
+- .dir([12:30])
 - _Korok::F28:
     comment: .gale()
     gale: 1
     notes: Use gale only if raining; use after F27 otherwise
 
-- .dir(W.)
+- .dir([9:30])
 - _Korok::F26:
     comment: Up against waterfall
 
-- .dir(E)
+- .dir([3:00])
 - _Korok::F27:
     comment: On ledge against waterfall
 
-- .dir(N)
+- .dir([12:00])
 - _Shrine::ShodaSah:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=4225s)
 
-- .dir(S)
+- .dir([6:00])
 - _Korok::F19:
     comment: Swim up with Zora Armor
 
-- .dir(N) short
+- .dir([12:00]) short
 - _Korok::F17:
     comment: Middle of Riola Spring
 
-- .dir(E>)
+- .dir([4:00])
 - _Korok::F20:
     comment: " "
 
-- .dir(N) + midair
+- .dir([12:00]) + midair
 - _Korok::F11:
     comment: On peak
 
-- .dir(N.) short
+- .dir([12:30]) short
 - _Korok::F08
 
-- .dir(E)
+- .dir([3:00])
 - _Korok::F12
 
-- .dir(<N) short
+- .dir([11:00]) short
 - _Korok::F09:
     comment: .rune(Stasis) 2 hits
 
-- .dir(N>)
+- .dir([1:00])
 - _Korok::F06:
     comment: On peak
 
-- .dir(E.) down
+- .dir([3:30]) down
 - _Korok::F07
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::F13
 
-- .dir(E>)
+- .dir([4:00])
 - _Boss::Hinox::Black:
     coord: [2420.75, 327.47, 2782.60]
     comment: Ancient arrows
 
-- .dir(E) run
+- .dir([3:00]) run
 - Return orb:
     icon: tots
     coord: [2616.91, 323.39, 2823.60]
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::F21
 
 - .!!(Remove) metal stuff:
@@ -307,11 +307,11 @@ Faron:
     hide-icon-on-map: true
     comment: Equip Barbarian Armor
 
-- .dir(<<W)
+- .dir([7:45])
 - _Korok::F29:
     comment: Cube in lake
 
-- .dir(SE) run
+- .dir([4:30]) run
 - _Npc::Rito<Kass>:
     coord: [2081.89, 287.42, 3226.31]
     comment: Song of Storms
@@ -320,7 +320,7 @@ Faron:
     icon: shield
     hide-icon-on-map: true
 
-- .dir(<<W) run
+- .dir([7:45]) run
 - Reveal shrine:
     icon: tots
     hide-icon-on-map: true

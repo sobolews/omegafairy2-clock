@@ -1,5 +1,5 @@
 Hyrule Castle:
-- .dir(S>>) + .dir(S) midairs:
+- .dir([7:15]) + .dir([6:00]) midairs:
     notes: .link([Easier movement without midairs]https://twitter.com/TaoPlusPlus/status/1525684201256787968?s=20&t=B-BWPy4MWcQnNr5kUJ9Tkg). Can also equip metal bow, warp to Eldin Tower and BLSS.
 - _Korok::X05:
     comment: Castle spire
@@ -8,15 +8,15 @@ Hyrule Castle:
 - _Korok::X06:
     comment: In belltower
 
-- .dir(S) down
+- .dir([6:00]) down
 - _Korok::X10:
     comment: " "
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::X07:
     comment: Spire of Zelda's Study
 
-- .dir(NE)
+- .dir([1:30])
 - Equip Barbarian, GEB, AA:
     icon: equipment
     coord: [-253.5,-1115.5]
@@ -35,29 +35,29 @@ Hyrule Castle:
     icon: tots
     hide-icon-on-map: true
 
-- .dir(N) down
+- .dir([12:00]) down
 - _Korok::X03:
     notes: To do a Daruk Shield Block, equip bomb, hold ZL (shield), jump, let go of ZL in midair, double tap L.
 
-- .dir(<E) short
+- .dir([2:00]) short
 - _Chest<Naydra's Scale>:
     coord: [-182.29, 235.23, -1169.52]
     comment: Under slab
 
-- .dir(E) down
+- .dir([3:00]) down
 - _Korok::X02:
     comment: " "
 
-- .dir(<<N) short
+- .dir([9:45]) short
 - _Chest<Dinraal's Scale>:
     coord: [-196.46, 153.20, -1218.59]
     comment: Behind rubble
 
-- .dir(N>)
+- .dir([1:00])
 - _Korok::K30:
     comment: Ledge across water
 
-- .dir(S)
+- .dir([6:00])
 - _Korok::X11:
     comment: Inside tunnel
 
@@ -108,7 +108,7 @@ Hyrule Castle:
 - Run
 - _Korok::X01
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::X04:
     comment: Pinwheel on castle wall
 
@@ -159,25 +159,25 @@ Hyrule Castle:
 - _Discover<Zelda's Room>:
     notes: Run into the room
 
-- .dir(.S)
+- .dir([5:30])
 - _Korok::X14
 
-- .dir(<<W)
+- .dir([7:45])
 - _Korok::X17:
     comment: Spire of First Gatehouse
 
-- .dir(<E)
+- .dir([2:00])
 - _Korok::X12:
     comment: On wall
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::X16:
     comment: Spire of Second Gatehouse
 
 - Down
 - _Discover<Second Gatehouse>
 
-- .dir(<S) short
+- .dir([5:00]) short
 - _Discover<Dining Hall>
 
 - _Material<Raw Meat>:
@@ -207,7 +207,7 @@ Hyrule Castle:
 - Run
 - _Korok::X18
 
-- .dir(E>)
+- .dir([4:00])
 - _Korok::X23:
     comment: Up to pinwheel
 
@@ -221,19 +221,19 @@ Hyrule Castle:
     comment: Far
     notes: Aim at top of the wall in background
 
-- .dir(E) short
+- .dir([3:00]) short
 - _Korok::X20
 
-- .dir(S>>)
+- .dir([7:15])
 - _Korok::X24
 
-- .dir(SW) down
+- .dir([7:30]) down
 - _Korok::C16
 
 - _Korok::X25:
     comment: " "
 
-- .dir(<S)
+- .dir([5:00])
 - _Korok::C33:
     comment: Pinwheel on outer wall
 - _Snap::Quest<Guardian Stalker>:
@@ -241,6 +241,6 @@ Hyrule Castle:
         - to: [71.50, 135.11, -104.00]
           away: true
 
-- .dir(S>>)
+- .dir([7:15])
 - _Korok::C35
 - _Memory::SacredGrounds

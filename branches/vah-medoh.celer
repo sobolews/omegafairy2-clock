@@ -4,7 +4,7 @@ Vah Medoh:
     line-color: palegreen
 - _Korok::R60
 
-- BLSS .dir(<<N)
+- BLSS .dir([9:45])
 - _Npc::Rito<Kaneli>:
     coord: [-3627.20, 323.57, -1830.81]
 
@@ -17,7 +17,7 @@ Vah Medoh:
     coord: [-3643.01, 290.64, -1823.43]
     comment: Buy everything you can
 
-- .dir(.N)
+- .dir([11:30])
 - _Korok::T02
 
 - _Equipment::Bow<Swallow Bow>:
@@ -63,10 +63,10 @@ Vah Medoh:
     hide-icon-on-map: true
     notes: DON'T use until duping
 
-- .dir(W.)
+- .dir([9:30])
 - _Korok::T10
 
-- .dir(.W)
+- .dir([8:30])
 - _Korok::T13
 - _Material<1 Hearty Truffle>:
     notes: Used for transmute
@@ -76,22 +76,22 @@ Vah Medoh:
 - _Npc::Rito<Kheel>:
     coord: [-3979.33, 271.21, -1751.18]
 
-- .dir(N>)
+- .dir([1:00])
 - _Korok::T04
 
-- .dir(N)
+- .dir([12:00])
 - _Shrine::ShaWarvo:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=9406s)
 
-- .dir(.E)
+- .dir([2:30])
 - _Discover<Hebra Trailhead Lodge>:
     coord: [-3572.02, 247.83, -2258.14]
     notes: .link([Example movement]https://twitter.com/TaoPlusPlus/status/1541444717392658436?s=20&t=B-BWPy4MWcQnNr5kUJ9Tkg)
 
-- .dir(<S)
+- .dir([5:00])
 - _Korok::T05
 
-- .dir(<E)
+- .dir([2:00])
 - Shock arrow fish:
     icon: calamity
     hide-icon-on-map: true

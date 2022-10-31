@@ -2,16 +2,16 @@ Eventide:
 - _Warp::Tower::Hateno:
     comment: WARP
 
-- .dir(<S)
+- .dir([5:00])
 - _Korok::F14:
     comment: " "
 
-- .dir(<W) swim
+- .dir([8:00]) swim
 - _Boss::Hinox::Red:
     coord: [2768.06, 258.13, 2711.58]
     comment: Ancient arrows
 
-- .dir(W)
+- .dir([9:00])
 - Return orb:
     icon: tots
     coord: [2648.43, 324.55, 2822.85]
@@ -20,51 +20,51 @@ Eventide:
     icon: tots
     hide-icon-on-map: true
 
-- .dir(.S)
+- .dir([5:30])
 - _Boss::Hinox::Blue:
     coord: [2693.70, 273.89, 2967.57]
     comment: Ancient arrows
 
-- .dir(<N)
+- .dir([11:00])
 - Return orb:
     icon: tots
     coord: [2632.47, 321.84, 2848.53]
 
 - _Shrine::TawaJinn
 
-- .dir(E>>)
+- .dir([4:15])
 - _Korok::F22:
     comment: " "
 
-- .dir(<E)
+- .dir([2:00])
 - _Korok::F18
 
-- .dir(N>>) run
+- .dir([1:15]) run
 - _Korok::N64
 
-- .dir(E) run
+- .dir([3:00]) run
 - _Boss::Hinox::Red:
     coord: [3210.17, 172.01, 2996.33]
     comment: Ancient arrows
     notes: Shoot from above
 
-- .dir(S) + midair
+- .dir([6:00]) + midair
 - _Korok::F32
 
-- .dir(E>)
+- .dir([4:00])
 - _Shrine::MuwoJeem:
     comment: Modest Test of Strength
 
-- .dir(N>)
+- .dir([1:00])
 - _Korok::F33
 
-- .dir(W>>) down
+- .dir([10:15]) down
 - _Korok::N65
 
-- .dir(N>)
+- .dir([1:00])
 - _Korok::N61
 
-- .dir(E)
+- .dir([3:00])
 - _Npc<Kass>:
     coord: [3746.19, 125.42, 2629.38]
     comment: The Hero's Cache
@@ -75,14 +75,14 @@ Eventide:
     comment: .rune(Magnesis) chest in water
     notes: The Hero's Cache
 
-- .dir(<N)
+- .dir([11:00])
 - _Korok::N60:
     comment: " "
 
-- .dir(E>)
+- .dir([4:00])
 - _Korok::N62
 
-- .dir(N)
+- .dir([12:00])
 - .fury() .!!(Enemy Camp):
     icon: calamity
     fury: 1
@@ -90,37 +90,37 @@ Eventide:
     coord: [4121.98, 113.17, 2369.62]
     comment: Ancient arrow white boko
 
-- .dir(NE)
+- .dir([1:30])
 - _Korok::N54:
     notes: Palm fruit on nearby tree if needed
 
-- .dir(E>) + midair
+- .dir([4:00]) + midair
 - _Korok::N56:
     comment: " "
 
-- .dir(S)
+- .dir([6:00])
 - _Boss::Talus::Luminous:
     comment: .fury()
     fury: 2
     coord: [4558.50, 105.41, 2465.00]
 
-- .dir(S)
+- .dir([6:00])
 - _Korok::N63
 
-- .dir(<E) run
+- .dir([2:00]) run
 - _Korok::N57
 
-- .dir(W>)
+- .dir([10:00])
 - _Korok::N55:
     comment: " "
 
-- .dir(SW) + midairs
+- .dir([7:30]) + midairs
 - _Shrine::ChaasQeta:
     comment: Major Test of Strength
 
 - _Korok::N66
 
-- .dir(E>>)
+- .dir([4:15])
 - Shoot arrow at ground:
     icon: calamity
     hide-icon-on-map: true

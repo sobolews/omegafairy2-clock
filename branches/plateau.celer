@@ -40,7 +40,7 @@ Plateau:
     icon: bow
     hide-icon-on-map: true
 
-- .dir(E):
+- .dir([3:00]):
     notes: .link([Skew fix]https://twitter.com/TheKoroks/status/1477147629427433472?s=20&t=67Yr65osvtxvFD8Voud8vQ)
 
 - _Shrine::JaBaij
@@ -49,7 +49,7 @@ Plateau:
     coord: [-461.70, 178.41, 1990.18]
     comment: Text option 2-1-1-2
 
-- .dir(<N)
+- .dir([11:00])
 - _Tower::GreatPlateau
 
 - Down
@@ -57,11 +57,11 @@ Plateau:
     coord: [-572.50, 178.89, 1696.50]
     comment: Glitched cutscene
 
-- .dir(<N):
+- .dir([11:00]):
     notes: .link([BLSS spot]https://youtu.be/nnlz4Cu7d5Y?t=518)
 - _Shrine::OmanAu
 
-- .dir(S) to .loc(Tree), WB .dir(W):
+- .dir([6:00]) to .loc(Tree), WB .dir([9:00]):
     movements:
         - to: [-674.5,1953]
         - to: [-839.5,2274.5]
@@ -71,10 +71,10 @@ Plateau:
 # - _Equipment::Weapon<Iron Sledghammer>:
 #     notes: (Optional) Good for luminous stones, chest in Kaya Wan, sneakstriking green lizalfos
 
-- Boulder launch + .dir(W>)
+- Boulder launch + .dir([10:00])
 - _Shrine::KehNamut
 
-- .dir(E)
+- .dir([3:00])
 - .!!(Paraglider):
     icon: king
     coord: [-809.33, 263.58, 1964.35]

@@ -3,7 +3,7 @@ Plateau 2:
     line-color: violet
     comment: WARP
 
-- .dir(<<E)
+- .dir([1:45])
 - _Korok::P18
 
 - _Material<Baked Apple>:
@@ -11,80 +11,80 @@ Plateau 2:
     notes: Apple of My Eye
     comment: Inside hut
 
-- .dir(N) + midair
+- .dir([12:00]) + midair
 - _Korok::P11:
     comment: Spire of temple
 
-- .dir(NW) down
+- .dir([10:30]) down
 - _Korok::P10:
     comment: " "
 
-- .dir(W>)
+- .dir([10:00])
 - _Boss::Talus::Stone:
     coord: [-1087.75, 179.14, 1663.18]
     comment: .fury()
     fury: 1
 
-- .dir(E) run
+- .dir([3:00]) run
 - _Korok::P04
 
-- .dir(S)
+- .dir([6:00])
 - _Korok::P06
 
-- .dir(NE) run
+- .dir([1:30]) run
 - _Material<3 Acorn>:
     coord: [-930.78, 184.82, 1702.72]
     notes: Need to pick up 8 more rng acorns during the run
 
-- .dir(E) run
+- .dir([3:00]) run
 - _Korok::P05
 
-- .dir(NE)
+- .dir([1:30])
 - _Korok::P02
 
-- .dir(NW) run
+- .dir([10:30]) run
 - _Korok::P01
 
-- .dir(NW)
+- .dir([10:30])
 - _Korok::C81:
     comment: Small ruins next to coliseum
 
-- .dir(E>)
+- .dir([4:00])
 - _Korok::C82
 
-- .dir(N>)
+- .dir([1:00])
 - _Memory::LakeKolomo
 
-- .dir(S)
+- .dir([6:00])
 - _Korok::C83:
     comment: Pinwheel
 
-- .dir(SE) short
+- .dir([4:30]) short
 - _Discover<Gatepost Town Ruins>:
     coord: [-537.88, 121.27, 1445.48]
 
-- .dir(N>>)
+- .dir([1:15])
 - _Korok::C76
 
-- .dir(N>) short
+- .dir([1:00]) short
 - _Korok::C75:
     comment: " "
 
-- .dir(W)
+- .dir([9:00])
 - _Boss::Talus::Luminous:
     coord: [-514.75, 127.49, 1181.74]
     comment: .fury()
     fury: 2
 
-- .dir(<NW)
+- .dir([10:15])
 - _Korok::C69
 
-- midair .dir(N)
+- midair .dir([12:00])
 - _Korok::C63
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::C62
 
-- .dir(W>>)
+- .dir([10:15])
 - _Shrine::KaamYatak:
     notes: .link([Shrine Strat]https://youtu.be/MZqANcvFr4c?t=22880)
